@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_05dIUCw2EeO8COcPK6Gmhw" elementId="org.eclipse.e4.ide.application" bindingContexts="_05dvaCw2EeO8COcPK6Gmhw">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_05dvYCw2EeO8COcPK6Gmhw" label="LineGen" width="600" height="1000">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_05dvfyw2EeO8COcPK6Gmhw">
+      <children xsi:type="advanced:Perspective" xmi:id="_05dvgCw2EeO8COcPK6Gmhw">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_cHzC8CzuEeO8COcPK6Gmhw" elementId="linegenui.partsashcontainer.0">
+          <children xsi:type="basic:PartStack" xmi:id="_elTAICzuEeO8COcPK6Gmhw" elementId="linegenui.partstack.0" containerData="20">
+            <children xsi:type="basic:Part" xmi:id="_05eWciw2EeO8COcPK6Gmhw" contributionURI="bundleclass://LineGenUI/LineGenUI.parts.MetamodelPart" label="Metamodel"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_iK3YoCzuEeO8COcPK6Gmhw" elementId="linegenui.partstack.1" containerData="20">
+            <children xsi:type="basic:Part" xmi:id="_VQTcICztEeO8COcPK6Gmhw" elementId="linegenui.part.0" contributionURI="bundleclass://LineGenUI/LineGenUI.parts.GenBaseModelPart" label="Generate Base Model"/>
+            <children xsi:type="basic:Part" xmi:id="_irxFMDAuEeO8COcPK6Gmhw" elementId="linegenui.part.4" contributionURI="bundleclass://LineGenUI/LineGenUI.parts.LoadBaseModelPart" label="Load Existing Base Model"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_Slz54CzvEeO8COcPK6Gmhw" elementId="linegenui.partstack.2" containerData="20">
+            <children xsi:type="basic:Part" xmi:id="_VQ0uoCzvEeO8COcPK6Gmhw" elementId="linegenui.part.1" contributionURI="bundleclass://LineGenUI/LineGenUI.parts.GenVAMPart" label="Generate VAM"/>
+            <children xsi:type="basic:Part" xmi:id="_adiYIDAxEeO8COcPK6Gmhw" elementId="linegenui.part.5" contributionURI="bundleclass://LineGenUI/LineGenUI.parts.LoadVAMPart" label="Load Existing VAM"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_TFanACzvEeO8COcPK6Gmhw" elementId="linegenui.partstack.3" containerData="15">
+            <children xsi:type="basic:Part" xmi:id="_Vt1awCzvEeO8COcPK6Gmhw" elementId="linegenui.part.2" contributionURI="bundleclass://LineGenUI/LineGenUI.parts.VRMPart" label="VRM"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_T-s_cCzvEeO8COcPK6Gmhw" elementId="linegenui.partstack.4" containerData="20">
+            <children xsi:type="basic:Part" xmi:id="_WNubwCzvEeO8COcPK6Gmhw" elementId="linegenui.part.3" contributionURI="bundleclass://LineGenUI/LineGenUI.parts.CounterexamplesPart" label="Counterexamples"/>
+            <children xsi:type="basic:Part" xmi:id="_dPLOoEVAEeOXVYK2v6-HAw" elementId="linegenui.part.7" label="Examples"/>
+          </children>
+          <children xsi:type="basic:PartStack" xmi:id="_Vk-ZcDJwEeO8COcPK6Gmhw" elementId="linegenui.partstack.5" containerData="60">
+            <children xsi:type="basic:Part" xmi:id="_WHfQoDJwEeO8COcPK6Gmhw" elementId="linegenui.part.6" contributionURI="bundleclass://LineGenUI/LineGenUI.parts.ConsolePart" label="Console"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <mainMenu xmi:id="_05dveCw2EeO8COcPK6Gmhw" elementId="menu:org.eclipse.ui.main.menu">
+      <children xsi:type="menu:Menu" xmi:id="_05dveSw2EeO8COcPK6Gmhw" label="File">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_05dveiw2EeO8COcPK6Gmhw" label="Open" iconURI="platform:/plugin/LineGenUI/icons/sample.png" command="_05dvbyw2EeO8COcPK6Gmhw"/>
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_05dvfCw2EeO8COcPK6Gmhw" label="Quit" command="_05dvayw2EeO8COcPK6Gmhw"/>
+      </children>
+      <children xsi:type="menu:Menu" xmi:id="_05dvfSw2EeO8COcPK6Gmhw" label="Help">
+        <children xsi:type="menu:HandledMenuItem" xmi:id="_05dvfiw2EeO8COcPK6Gmhw" label="About" command="_05dvdSw2EeO8COcPK6Gmhw"/>
+      </children>
+    </mainMenu>
+    <trimBars xmi:id="_05eWcyw2EeO8COcPK6Gmhw">
+      <children xsi:type="menu:ToolBar" xmi:id="_05eWdCw2EeO8COcPK6Gmhw" elementId="toolbar:org.eclipse.ui.main.toolbar">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_05eWdSw2EeO8COcPK6Gmhw" iconURI="platform:/plugin/LineGenUI/icons/sample.png" command="_05dvbyw2EeO8COcPK6Gmhw"/>
+      </children>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_05dvbCw2EeO8COcPK6Gmhw" elementId="LineGenUI.handler.quitCommand" contributionURI="bundleclass://LineGenUI/LineGenUI.handlers.QuitHandler" command="_05dvayw2EeO8COcPK6Gmhw"/>
+  <handlers xmi:id="_05dvcCw2EeO8COcPK6Gmhw" elementId="LineGenUI.handler.openCommand" contributionURI="bundleclass://LineGenUI/LineGenUI.handlers.OpenHandler" command="_05dvbyw2EeO8COcPK6Gmhw"/>
+  <handlers xmi:id="_05dvcyw2EeO8COcPK6Gmhw" elementId="LineGenUI.handler.saveCommand" contributionURI="bundleclass://LineGenUI/LineGenUI.handlers.SaveHandler" command="_05dvciw2EeO8COcPK6Gmhw"/>
+  <handlers xmi:id="_05dvdiw2EeO8COcPK6Gmhw" elementId="LineGenUI.handler.aboutCommand" contributionURI="bundleclass://LineGenUI/LineGenUI.handlers.AboutHandler" command="_05dvdSw2EeO8COcPK6Gmhw"/>
+  <bindingTables xmi:id="_05dvbSw2EeO8COcPK6Gmhw" bindingContext="_05dvaCw2EeO8COcPK6Gmhw">
+    <bindings xmi:id="_05dvbiw2EeO8COcPK6Gmhw" keySequence="M1+Q" command="_05dvayw2EeO8COcPK6Gmhw"/>
+    <bindings xmi:id="_05dvcSw2EeO8COcPK6Gmhw" keySequence="M1+O" command="_05dvbyw2EeO8COcPK6Gmhw"/>
+    <bindings xmi:id="_05dvdCw2EeO8COcPK6Gmhw" keySequence="M1+S" command="_05dvciw2EeO8COcPK6Gmhw"/>
+    <bindings xmi:id="_05dvdyw2EeO8COcPK6Gmhw" keySequence="M1+A" command="_05dvdSw2EeO8COcPK6Gmhw"/>
+  </bindingTables>
+  <rootContext xmi:id="_05dvaCw2EeO8COcPK6Gmhw" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_05dvaSw2EeO8COcPK6Gmhw" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_05dvaiw2EeO8COcPK6Gmhw" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_05dvayw2EeO8COcPK6Gmhw" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_05dvbyw2EeO8COcPK6Gmhw" elementId="LineGenUI.open" commandName="openCommand"/>
+  <commands xmi:id="_05dvciw2EeO8COcPK6Gmhw" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_05dvdSw2EeO8COcPK6Gmhw" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_05dvYSw2EeO8COcPK6Gmhw" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_05dvYiw2EeO8COcPK6Gmhw" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_05dvYyw2EeO8COcPK6Gmhw" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_05dvZCw2EeO8COcPK6Gmhw" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_05dvZSw2EeO8COcPK6Gmhw" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_05dvZiw2EeO8COcPK6Gmhw" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_05dvZyw2EeO8COcPK6Gmhw" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

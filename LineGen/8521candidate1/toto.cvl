@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CVLMetamodel.cvl:VPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CVLMetamodel.cvl="http:///org.omg/CVLMetamodel/cvl" name="ThalesTestCase_2">
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="VAM">
+    <packageElement xsi:type="CVLMetamodel.cvl:Choice" name="Root" defaultResolution="true">
+      <groupMultiplicity upper="2" lower="2"/>
+      <child xsi:type="CVLMetamodel.cvl:Choice" name="ch14" isImpliedByParent="true"/>
+      <child xsi:type="CVLMetamodel.cvl:Choice" name="ch15" defaultResolution="true" isImpliedByParent="true"/>
+      <child xsi:type="CVLMetamodel.cvl:Choice" name="ch16" isImpliedByParent="true"/>
+    </packageElement>
+  </packageElement>
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="VRM">
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectExistence" name="vp_Root" bindingVspec="//@packageElement.0/@packageElement.0" bindingChoice="//@packageElement.0/@packageElement.0">
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.2"/>
+      </optionalObject>
+    </packageElement>
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectExistence" name="vp_ch15" bindingVspec="//@packageElement.0/@packageElement.0/@child.1" bindingChoice="//@packageElement.0/@packageElement.0/@child.1">
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.2/@outgoingTransition.0"/>
+      </optionalObject>
+    </packageElement>
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectSubstitution" name="vp_ch16" bindingVspec="//@packageElement.0/@packageElement.0/@child.2" bindingChoice="//@packageElement.0/@packageElement.0/@child.2">
+      <placementObject>
+        <reference href="toto.fsm#//@ownedState.3"/>
+      </placementObject>
+      <replacementObject>
+        <reference href="toto.fsm#//@ownedState.4"/>
+      </replacementObject>
+    </packageElement>
+  </packageElement>
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="Resolution">
+    <packageElement xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_Root" resolvedVSpec="//@packageElement.0/@packageElement.0" resolvedChoice="//@packageElement.0/@packageElement.0" decision="true">
+      <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch14" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.0" resolvedChoice="//@packageElement.0/@packageElement.0/@child.0"/>
+      <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch15" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.1" resolvedChoice="//@packageElement.0/@packageElement.0/@child.1"/>
+      <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch16" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.2" resolvedChoice="//@packageElement.0/@packageElement.0/@child.2" decision="true"/>
+    </packageElement>
+  </packageElement>
+</CVLMetamodel.cvl:VPackage>

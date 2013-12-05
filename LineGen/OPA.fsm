@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fsm:FSM xmlns:fsm="http://www.kermeta.org/fsm" initialState="//@ownedState.1" finalState="//@ownedState.2">
+  <ownedState>
+    <outgoingTransition target="//@ownedState.2"/>
+  </ownedState>
+  <ownedState incomingTransition="//@ownedState.2/@outgoingTransition.0 //@ownedState.1/@outgoingTransition.0">
+    <outgoingTransition target="//@ownedState.1"/>
+  </ownedState>
+  <ownedState incomingTransition="//@ownedState.0/@outgoingTransition.0">
+    <outgoingTransition target="//@ownedState.1"/>
+  </ownedState>
+  <ownedState/>
+</fsm:FSM>

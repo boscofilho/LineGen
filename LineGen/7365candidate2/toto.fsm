@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fsm:FSM xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fsm="http://www.kermeta.org/fsm" initialState="//@ownedState.4" finalState="//@ownedState.1 //@ownedState.0">
+  <ownedState name="state1" incomingTransition="//@ownedState.0/@outgoingTransition.0 //@ownedState.0/@outgoingTransition.1 //@ownedState.0/@outgoingTransition.2">
+    <outgoingTransition target="//@ownedState.0" input="i445" output="o513"/>
+    <outgoingTransition target="//@ownedState.0" input="i327" output="o633"/>
+    <outgoingTransition target="//@ownedState.0" input="i740" output="o66"/>
+  </ownedState>
+  <ownedState name="state2" incomingTransition="//@ownedState.1/@outgoingTransition.0 //@ownedState.1/@outgoingTransition.1 //@ownedState.1/@outgoingTransition.2">
+    <outgoingTransition target="//@ownedState.1" input="i511" output="o62"/>
+    <outgoingTransition target="//@ownedState.1" input="i176" output="o638"/>
+    <outgoingTransition target="//@ownedState.1" input="i506" output="o864"/>
+  </ownedState>
+  <ownedState name="state3" incomingTransition="//@ownedState.2/@outgoingTransition.0 //@ownedState.2/@outgoingTransition.1">
+    <outgoingTransition target="//@ownedState.2" input="i649" output="o46"/>
+    <outgoingTransition target="//@ownedState.2" input="i890" output="o253"/>
+  </ownedState>
+  <ownedState name="state4" incomingTransition="//@ownedState.3/@outgoingTransition.0 //@ownedState.3/@outgoingTransition.1">
+    <outgoingTransition target="//@ownedState.3" input="i164" output="o39"/>
+    <outgoingTransition target="//@ownedState.3" input="i605" output="o999"/>
+  </ownedState>
+  <ownedState name="state5" incomingTransition="//@ownedState.4/@outgoingTransition.0">
+    <outgoingTransition target="//@ownedState.4" input="i795" output="o969"/>
+  </ownedState>
+  <ownedState name="state6" incomingTransition="//@ownedState.5/@outgoingTransition.0">
+    <outgoingTransition target="//@ownedState.5" input="i635" output="o693"/>
+  </ownedState>
+</fsm:FSM>

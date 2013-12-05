@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fsm:FSM xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fsm="http://www.kermeta.org/fsm" initialState="//@ownedState.4">
+  <ownedState name="state1" incomingTransition="//@ownedState.0/@outgoingTransition.0 //@ownedState.0/@outgoingTransition.1">
+    <outgoingTransition target="//@ownedState.0" input="i533" output="o96"/>
+    <outgoingTransition target="//@ownedState.0" input="i635" output="o805"/>
+  </ownedState>
+  <ownedState name="state2" incomingTransition="//@ownedState.1/@outgoingTransition.0 //@ownedState.1/@outgoingTransition.1">
+    <outgoingTransition target="//@ownedState.1" input="i866" output="o826"/>
+    <outgoingTransition target="//@ownedState.1" input="i771" output="o811"/>
+  </ownedState>
+  <ownedState name="state3" incomingTransition="//@ownedState.2/@outgoingTransition.0">
+    <outgoingTransition target="//@ownedState.2" input="i317" output="o977"/>
+  </ownedState>
+  <ownedState name="state4" incomingTransition="//@ownedState.3/@outgoingTransition.0">
+    <outgoingTransition target="//@ownedState.3" input="i941" output="o237"/>
+  </ownedState>
+  <ownedState name="state5" incomingTransition="//@ownedState.4/@outgoingTransition.0 //@ownedState.4/@outgoingTransition.1 //@ownedState.4/@outgoingTransition.2 //@ownedState.4/@outgoingTransition.3">
+    <outgoingTransition target="//@ownedState.4" input="i127" output="o388"/>
+    <outgoingTransition target="//@ownedState.4" input="i208" output="o866"/>
+    <outgoingTransition target="//@ownedState.4" input="i219" output="o754"/>
+    <outgoingTransition target="//@ownedState.4" input="i715" output="o842"/>
+  </ownedState>
+</fsm:FSM>

@@ -1,0 +1,3 @@
+ fm2 = FM (Root : (A1 | A2 | A3); A1 : KeepActuatorA1 RemoveActuatorA1; A2 : KeepActuatorA2 RemoveActuatorA2; A3 : KeepActuatorA3 RemoveActuatorA3;  )
+println counting fm2
+exit

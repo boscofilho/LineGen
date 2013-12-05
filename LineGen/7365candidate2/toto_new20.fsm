@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<fsm:FSM xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:fsm="http://www.kermeta.org/fsm" initialState="//@ownedState.2" finalState="//@ownedState.0">
+  <ownedState name="state2" incomingTransition="//@ownedState.0/@outgoingTransition.0 //@ownedState.0/@outgoingTransition.1 //@ownedState.0/@outgoingTransition.2">
+    <outgoingTransition target="//@ownedState.0" input="i511" output="o62"/>
+    <outgoingTransition target="//@ownedState.0" input="i176" output="o638"/>
+    <outgoingTransition target="//@ownedState.0" input="i506" output="o864"/>
+  </ownedState>
+  <ownedState name="state4"/>
+  <ownedState name="state5"/>
+</fsm:FSM>

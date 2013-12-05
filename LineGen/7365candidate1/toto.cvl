@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CVLMetamodel.cvl:VPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CVLMetamodel.cvl="http:///org.omg/CVLMetamodel/cvl" name="ThalesTestCase_8">
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="VAM">
+    <packageElement xsi:type="CVLMetamodel.cvl:Choice" name="Root" defaultResolution="true" isImpliedByParent="true">
+      <groupMultiplicity upper="2"/>
+      <child xsi:type="CVLMetamodel.cvl:Choice" name="ch33">
+        <groupMultiplicity upper="2" lower="1"/>
+        <child xsi:type="CVLMetamodel.cvl:Choice" name="ch34" defaultResolution="true" isImpliedByParent="true"/>
+        <child xsi:type="CVLMetamodel.cvl:Choice" name="ch35" defaultResolution="true"/>
+        <child xsi:type="CVLMetamodel.cvl:Choice" name="ch36" isImpliedByParent="true"/>
+        <child xsi:type="CVLMetamodel.cvl:Choice" name="ch37" isImpliedByParent="true"/>
+      </child>
+    </packageElement>
+  </packageElement>
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="VRM">
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectExistence" name="vp_Root" bindingVspec="//@packageElement.0/@packageElement.0" bindingChoice="//@packageElement.0/@packageElement.0">
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.0/@outgoingTransition.0"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.41/@outgoingTransition.0"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.36"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.47/@outgoingTransition.1"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.1/@outgoingTransition.1"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.25"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.8"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.46/@outgoingTransition.0"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.32/@outgoingTransition.0"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.41"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.31/@outgoingTransition.1"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.8/@outgoingTransition.0"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.25/@outgoingTransition.0"/>
+      </optionalObject>
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.5/@outgoingTransition.2"/>
+      </optionalObject>
+    </packageElement>
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectSubstitution" name="vp_ch33" bindingVspec="//@packageElement.0/@packageElement.0/@child.0" bindingChoice="//@packageElement.0/@packageElement.0/@child.0">
+      <placementObject>
+        <reference href="toto.fsm#//@ownedState.24"/>
+      </placementObject>
+      <replacementObject>
+        <reference href="toto.fsm#//@ownedState.18"/>
+      </replacementObject>
+    </packageElement>
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectExistence" name="vp_ch34" bindingVspec="//@packageElement.0/@packageElement.0/@child.0/@child.0" bindingChoice="//@packageElement.0/@packageElement.0/@child.0/@child.0">
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.36/@outgoingTransition.1"/>
+      </optionalObject>
+    </packageElement>
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectSubstitution" name="vp_ch35" bindingVspec="//@packageElement.0/@packageElement.0/@child.0/@child.1" bindingChoice="//@packageElement.0/@packageElement.0/@child.0/@child.1">
+      <placementObject>
+        <reference href="toto.fsm#//@ownedState.48"/>
+      </placementObject>
+      <replacementObject>
+        <reference href="toto.fsm#//@ownedState.22"/>
+      </replacementObject>
+    </packageElement>
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectExistence" name="vp_ch37" bindingVspec="//@packageElement.0/@packageElement.0/@child.0/@child.3" bindingChoice="//@packageElement.0/@packageElement.0/@child.0/@child.3">
+      <optionalObject>
+        <reference href="toto.fsm#//@ownedState.42/@outgoingTransition.1"/>
+      </optionalObject>
+    </packageElement>
+  </packageElement>
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="Resolution">
+    <packageElement xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_Root" resolvedVSpec="//@packageElement.0/@packageElement.0" resolvedChoice="//@packageElement.0/@packageElement.0">
+      <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch33" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.0" resolvedChoice="//@packageElement.0/@packageElement.0/@child.0" decision="true">
+        <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch34" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.0/@child.0" resolvedChoice="//@packageElement.0/@packageElement.0/@child.0/@child.0" decision="true"/>
+        <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch35" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.0/@child.1" resolvedChoice="//@packageElement.0/@packageElement.0/@child.0/@child.1" decision="true"/>
+        <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch36" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.0/@child.2" resolvedChoice="//@packageElement.0/@packageElement.0/@child.0/@child.2"/>
+        <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch37" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.0/@child.3" resolvedChoice="//@packageElement.0/@packageElement.0/@child.0/@child.3" decision="true"/>
+      </child>
+    </packageElement>
+  </packageElement>
+</CVLMetamodel.cvl:VPackage>

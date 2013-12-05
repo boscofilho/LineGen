@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<CVLMetamodel.cvl:VPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:CVLMetamodel.cvl="http:///org.omg/CVLMetamodel/cvl" name="ThalesTestCase_5">
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="VAM">
+    <packageElement xsi:type="CVLMetamodel.cvl:Choice" name="Root" isImpliedByParent="true">
+      <groupMultiplicity upper="2"/>
+      <child xsi:type="CVLMetamodel.cvl:Choice" name="ch27" defaultResolution="true">
+        <groupMultiplicity upper="1"/>
+      </child>
+    </packageElement>
+  </packageElement>
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="VRM">
+    <packageElement xsi:type="CVLMetamodel.cvl:ObjectSubstitution" name="vp_Root" bindingVspec="//@packageElement.0/@packageElement.0" bindingChoice="//@packageElement.0/@packageElement.0">
+      <placementObject>
+        <reference href="toto.fsm#//@ownedState.9/@outgoingTransition.1"/>
+      </placementObject>
+      <replacementObject>
+        <reference href="toto.fsm#//@ownedState.27/@outgoingTransition.4"/>
+      </replacementObject>
+    </packageElement>
+  </packageElement>
+  <packageElement xsi:type="CVLMetamodel.cvl:VPackage" name="Resolution">
+    <packageElement xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_Root" resolvedVSpec="//@packageElement.0/@packageElement.0" resolvedChoice="//@packageElement.0/@packageElement.0" decision="true">
+      <child xsi:type="CVLMetamodel.cvl:ChoiceResolutuion" name="cr_ch27" resolvedVSpec="//@packageElement.0/@packageElement.0/@child.0" resolvedChoice="//@packageElement.0/@packageElement.0/@child.0"/>
+    </packageElement>
+  </packageElement>
+</CVLMetamodel.cvl:VPackage>
